@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== SwiperJS CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="code-icon-png-25.jpg">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .h5{
+      font-size: var(--fs-7);
+      }
+    
+      .skills-title { margin-bottom: 20px; }
+
+.skills-list { padding: 20px; }
+
+
+.skills-item:not(:last-child) { margin-bottom: 15px; }
+
+.skill .title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.skill .title-wrapper data {
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+}
+
+.skill-progress-bg {
+  background: white;
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.skill-progress-fill {
+  background: green;
+  height: 100%;
+  border-radius: inherit;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Guna<Span>Sanjay</Span>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact"  class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div>
+       <div class="header-text">
+     <center>
+      <p>Web Developer</p>
+      <h1>Hi, I'm Guna <span>sanjay s</span><br>from India</h1>
+     </center>
+  </div>
+  </div>
+  </div>
+  <!-----------------------------------------------about-------------------------------------------------> 
+<div  id="about">
+  <div class="container">
+  <div class="row">
+      <div class="about-col-1">
+          <img class="profile" src="profile.png">
+      </div>
+      <div class="about-col-2">
+          <h1 class="sub-title" style=" color: #A1EEBD ;">About Me</h1>
+        <p>My job is to build website so that it is functional and user-friendly but at the same time attractive. Moreover, <br> I add personal touch to product and make sure that is eye-catching and easy to use. <br>  My aim is to bring across your message and identity in the most creative way.</p>
+         <br>
+          <div class="tab-contents active-tab" id="skills">
+              <ul>
+    
+          
+                 
+              </ul>
+          </div>
+          
+          <div class="tab-contents" id="education">
+              <ul>
+                  <li><span>2021 - 2025</span><br> bsc Computer Science , patrician college , i'am persuing</li>
+                  <br>
+                  <li><span>2015 - 2021</span><br>santhome higher Secondary school, </li>
+                  <br>
+                  <li><span>2009 - 2015</span><br>Gita Nursery And Primary School.</li>
+              </ul>
+          </div>
+  </div>
+
+</div>
+<!--------------------------------services------------------------------------------------------>
+<div id="services">
+<div>
+  <i class="fa-solid fa-code"></i>
+  <br>
+  <h2 style=" color: #A1EEBD ;">Web Development</h2>
+  <br>
+  <p>I have worked in Web Development and i can create responsive websites.</p>
+  <br>
+  <p>Web Development using HTML, CSS, Javascript</p>
+
+</div>
+  </div>
+  <br>
+  <div>
+    <section class="skill">
+
+      <h2 class="h3 skills-title" style=" color: #A1EEBD ;">My skills</h2>
+
+      <ul class="skills-list content-card">
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">python</h5>
+            <data value="80">80%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;"></div>
+          </div>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">C program</h5>
+            <data value="10">10%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 10%;"></div>
+          </div>
+
+        </li>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">java program</h5>
+            <data value="10">10%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 10%;"></div>
+          </div>
+
+        </li>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">Web design</h5>
+            <data value="50">50%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 50%;"></div>
+          </div>
+
+        </li>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">HTML</h5>
+            <data value="98">98%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 98%;"></div>
+          </div>
+
+        </li>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">pencil drawing</h5>
+            <data value="80">80%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;"></div>
+          </div>
+
+        </li>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">CSS</h5>
+            <data value="80">80%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 80%;"></div>
+          </div>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+  </div>
+<!-----------------------------------------------Portfolio------------------------------------------------->
+    <footer id="contact">
+        <div class="section__container nav__link">
+          <div class="footer__content">
+          
+            <h2 class="section__title">Contact <span>Me!</span></h2>
+            <p class="section__subtitle"><h3>If you want to contact me</h3></p>
+            <div class="footer__details">
+              <p><h4> You can reach me through the contact form provided on this website. <br> Simply fill out the form with your name, email address,<br>
+                and message, and I will get back to you as soon as possible.
+              </h4></p>
+              <p>36/1, Muthu Street,</p>
+              <p>Santhome, Mylapore,</p>
+              <p>chennai-04</p>
+            </div>
+            <div class="social__icons">
+              <a href="#" class="icon"><i class="ri-facebook-fill"></i></a>
+              <a href="mailto:bgunasanjay@gmail.com" class="icon"><i class="ri-mail-line"></i></a>
+              <a href="#" class="icon"><i class="ri-twitter-fill"></i></a>
+              <a href="#" class="icon"><i class="ri-linkedin-fill"></i></a>
+            </div>
+          </div>
+          <form class="footer__form">
+            <input type="text" placeholder="Your Name" />
+            <input type="text" placeholder="Your Email Address" />
+            <input type="text" placeholder="Your Phone Number" />
+            <textarea cols="30" rows="10" placeholder="Your Idea"></textarea>
+            <button type="submit" class="btn"> <a href="mailto:bgunasanjay@gmail.com"> Send Message</a></button>
+          </form>
+        </div>
+      </footer>
+    </body>
